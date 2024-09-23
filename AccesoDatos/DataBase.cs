@@ -10,19 +10,19 @@ namespace AccesoDatos
 {
     public class DataBase
     {
-        public static string Connection //se inicializa una propiedad de la clase
+        public static string ConnectionString //se inicializa una propiedad de la clase
         {
             get
             {
-                return ConfigurationManager.ConnectionStrings["NWConnectionString"].ConnectionString;
+                return ConfigurationManager.ConnectionStrings["NWConnectionString"].ConnectionString; //Error
             }
         }
 
         public static SqlConnection GetSqlConnection()
         {
-            SqlConnection connection = new SqlConnection(Connection);
-            connection.Open(); //para implementarlo con la base de datos
-            return connection;
+            SqlConnection conexion = new SqlConnection(ConnectionString); //Error
+            conexion.Open(); //para implementarlo con la base de datos
+            return conexion;
         }
 
     }

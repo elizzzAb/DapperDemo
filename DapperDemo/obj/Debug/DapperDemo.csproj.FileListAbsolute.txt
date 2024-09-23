@@ -1,0 +1,15 @@
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\DapperDemo.exe.config
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\DapperDemo.exe
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\DapperDemo.pdb
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\AccesoDatos.dll
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\Dapper.dll
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\AccesoDatos.pdb
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\bin\Debug\Dapper.xml
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.AssemblyReference.cache
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.Form1.resources
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.Properties.Resources.resources
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.GenerateResource.cache
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.CoreCompileInputs.cache
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.csproj.CopyComplete
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.exe
+C:\Users\Elizabeth\Desktop\ProgramacionIIPracticas\DapperDemo\DapperDemo\obj\Debug\DapperDemo.pdb
