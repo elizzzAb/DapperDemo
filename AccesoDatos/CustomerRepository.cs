@@ -49,9 +49,9 @@ namespace AccesoDatos
                 selectPorID = selectPorID + "      ,[Phone] " + "\n";
                 selectPorID = selectPorID + "      ,[Fax] " + "\n";
                 selectPorID = selectPorID + "  FROM [dbo].[Customers] " + "\n";
-                selectPorID = selectPorID + "  WHERE CustomerID = @CustomerID]";
+                selectPorID = selectPorID + "  WHERE CustomerID = @CustomerID";
 
-                var Cliente = conexion.QueryFirstOrDefault<Customers>(selectPorID, new { CustomerID = id });
+                var Cliente = conexion.QueryFirstOrDefault<Customers>(selectPorID, new { CustomerID = id }); 
                 return Cliente;
             }
         }

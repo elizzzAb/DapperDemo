@@ -46,9 +46,9 @@
             // 
             // btnObtenerTodos
             // 
-            this.btnObtenerTodos.Location = new System.Drawing.Point(361, 238);
+            this.btnObtenerTodos.Location = new System.Drawing.Point(239, 238);
             this.btnObtenerTodos.Name = "btnObtenerTodos";
-            this.btnObtenerTodos.Size = new System.Drawing.Size(79, 38);
+            this.btnObtenerTodos.Size = new System.Drawing.Size(277, 25);
             this.btnObtenerTodos.TabIndex = 1;
             this.btnObtenerTodos.Text = "Obtener Todos";
             this.btnObtenerTodos.UseVisualStyleBackColor = true;
@@ -57,7 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(235, 300);
+            this.label1.Location = new System.Drawing.Point(284, 297);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 13);
             this.label1.TabIndex = 2;
@@ -65,16 +65,16 @@
             // 
             // tboxObtenerID
             // 
-            this.tboxObtenerID.Location = new System.Drawing.Point(292, 297);
+            this.tboxObtenerID.Location = new System.Drawing.Point(341, 294);
             this.tboxObtenerID.Name = "tboxObtenerID";
-            this.tboxObtenerID.Size = new System.Drawing.Size(100, 20);
+            this.tboxObtenerID.Size = new System.Drawing.Size(123, 20);
             this.tboxObtenerID.TabIndex = 3;
             // 
             // btnObtenerId
             // 
-            this.btnObtenerId.Location = new System.Drawing.Point(307, 323);
+            this.btnObtenerId.Location = new System.Drawing.Point(356, 320);
             this.btnObtenerId.Name = "btnObtenerId";
-            this.btnObtenerId.Size = new System.Drawing.Size(75, 23);
+            this.btnObtenerId.Size = new System.Drawing.Size(88, 23);
             this.btnObtenerId.TabIndex = 4;
             this.btnObtenerId.Text = "Buscar";
             this.btnObtenerId.UseVisualStyleBackColor = true;
