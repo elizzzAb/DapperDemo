@@ -32,6 +32,10 @@ namespace DapperDemo
         {
             var cliente = customerR.ObtenerPorID(tboxObtenerID.Text);
             dgvObtenerTodos.DataSource = new List<Customers> { cliente };
+            if (cliente != null)
+            {
+                RellenarForm(cliente);
+            }
 
         }
 
@@ -53,6 +57,25 @@ namespace DapperDemo
                 Address = txbAddress.Text
             };
             return nuevo;
+        }
+
+        private void btnActualizar_Click(object sender, EventArgs e)
+        {
+            var clienteActualizado = CrearCliente();
+            var actualizados = customerR.ActualizarCliente(clienteActualizado);
+            var cliente = customerR.ObtenerPorID(clienteActualizado.CustomerID);
+            dgvObtenerTodos.DataSource = new List<Customers> { cliente };
+            MessageBox.Show($"Filas actualizadas {actualizados} , {clienteActualizado.CustomerID}");
+
+        }
+
+        private void RellenarForm(Customers customers)
+        {
+            txbCustomerId.Text = customers.CustomerID;
+            txbCompanyName.Text = customers.CompanyName;
+            txbContactName.Text = customers.ContactName;
+            txbContactTitle.Text = customers.ContactTitle;
+            txbAddress.Text = customers.Address;
         }
     }
 }
