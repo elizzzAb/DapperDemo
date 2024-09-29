@@ -77,5 +77,11 @@ namespace DapperDemo
             txbContactTitle.Text = customers.ContactTitle;
             txbAddress.Text = customers.Address;
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            var eliminadas = customerR.EliminarCliente(tboxObtenerID.Text);
+            MessageBox.Show($"Se ha eliminado {eliminadas} fila de manera correcta");
+        }
     }
 }
